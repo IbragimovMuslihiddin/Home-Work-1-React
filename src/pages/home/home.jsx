@@ -20,9 +20,10 @@ import image1 from '/src/app/assets/img/1 .png';
 import image2 from '/src/app/assets/img/2.png';
 import image3 from '/src/app/assets/img/3.png';
 import image4 from '/src/app/assets/img/4.png';
-let App = () => {
+export default function HomaPage(){
   return (
-    <div>
+    <>
+  <div>
       <div className="start">
         <div className="start_start">
           <h3 className="a1">Ремонт и отделка</h3>
@@ -354,7 +355,7 @@ let App = () => {
         </div>
       </div>
     </div>
-  );
-};
+  </>
+  )
+}
 
-export default App;
