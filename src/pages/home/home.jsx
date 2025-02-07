@@ -20,7 +20,7 @@ import image1 from '/src/app/assets/img/1 .png';
 import image2 from '/src/app/assets/img/2.png';
 import image3 from '/src/app/assets/img/3.png';
 import image4 from '/src/app/assets/img/4.png';
-const App = () => {
+let App = () => {
   return (
     <div>
       <div className="start">
